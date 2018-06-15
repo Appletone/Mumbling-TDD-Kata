@@ -21,11 +21,7 @@ class ViewController: UIViewController {
     }
 
     func accum(_ letters:String) -> String {
-        var ret = letters.enumerated().map { (arg) -> String in
-            
-            let (offset, element) = arg
-            return String(repeating: element, count: offset+1).capitalized + "-"
-        }.reduce("", +)
+        var ret = letters.enumerated().map { String(repeating: $1, count: $0 + 1).capitalized + "-" }.reduce("", +)
         ret.removeLast()
         return ret
     }
