@@ -10,10 +10,12 @@ import XCTest
 @testable import Mumbling_TDD_Kata
 
 class Mumbling_TDD_KataTests: XCTestCase {
+    let vc = ViewController()
     
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
     }
     
     override func tearDown() {
@@ -23,7 +25,6 @@ class Mumbling_TDD_KataTests: XCTestCase {
     
     func testOneLowercaseLetter() {
         // Arrange
-        let vc = ViewController()
         let letter = "a"
         
         // Act
@@ -35,7 +36,6 @@ class Mumbling_TDD_KataTests: XCTestCase {
     
     func testTwoLowercaseLetter() {
         // Arrange
-        let vc = ViewController()
         let letter = "ab"
         
         // Act
@@ -47,7 +47,6 @@ class Mumbling_TDD_KataTests: XCTestCase {
     
     func testTwoLowercaseOneUppercaseLetter() {
         // Arrange
-        let vc = ViewController()
         let letter = "abC"
         
         // Act
