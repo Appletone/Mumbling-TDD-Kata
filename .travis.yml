@@ -1,0 +1,9 @@
+language: swift
+osx_image: xcode9.2
+script: xcodebuild -project Mumbling-TDD-Kata.xcodeproj -scheme Mumbling-TDD-Kata -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=11.2,name=iPhone 8' build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO | xcpretty
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+before_install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+
