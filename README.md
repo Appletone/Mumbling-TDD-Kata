@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.com/Appletone/Mumbling-TDD-Kata.svg) [![codecov](https://codecov.io/gh/Appletone/Mumbling-TDD-Kata/branch/master/graph/badge.svg)](https://codecov.io/gh/Appletone/Mumbling-TDD-Kata) ![JDD](https://img.shields.io/badge/JDD-Jed%20%E9%A9%85%E5%8B%95%E9%96%8B%E7%99%BC-red.svg)
+![Build Status](https://travis-ci.com/Appletone/Mumbling-TDD-Kata.svg) [![codecov](https://codecov.io/gh/Appletone/Mumbling-TDD-Kata/branch/master/graph/badge.svg)](https://codecov.io/gh/Appletone/Mumbling-TDD-Kata) [![JDD](https://img.shields.io/badge/JDD-Jed%20%E9%A9%85%E5%8B%95%E9%96%8B%E7%99%BC-red.svg)](https://github.com/jed1978)
 
 ## Getting started
 
