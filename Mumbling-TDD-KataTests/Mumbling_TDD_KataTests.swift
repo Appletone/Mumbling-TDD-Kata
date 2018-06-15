@@ -21,6 +21,18 @@ class Mumbling_TDD_KataTests: XCTestCase {
         super.tearDown()
     }
     
+    func testOneLowercaseLetter() {
+        // Arrange
+        let vc = ViewController()
+        let letter = "a"
+        
+        // Act
+        let ret = vc.accum(letter)
+        
+        // Assert
+        XCTAssertEqual("A", ret)
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
