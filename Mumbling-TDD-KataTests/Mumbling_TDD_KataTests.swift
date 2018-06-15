@@ -56,6 +56,41 @@ class Mumbling_TDD_KataTests: XCTestCase {
         XCTAssertEqual("A-Bb-Ccc", ret)
     }
     
+    // MARK: - Test Case From Codewar
+    func testCodewarTestCase1() {
+        // Arrange
+        let letter = "abcd"
+        
+        // Act
+        let ret = vc.accum(letter)
+        
+        // Assert
+        XCTAssertEqual("A-Bb-Ccc-Dddd", ret)
+    }
+    
+    func testCodewarTestCase2() {
+        // Arrange
+        let letter = "RqaEzty"
+        
+        // Act
+        let ret = vc.accum(letter)
+        
+        // Assert
+        XCTAssertEqual("R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy", ret)
+    }
+    
+    func testCodewarTestCase3() {
+        // Arrange
+        let letter = "cwAt"
+        
+        // Act
+        let ret = vc.accum(letter)
+        
+        // Assert
+        XCTAssertEqual("C-Ww-Aaa-Tttt", ret)
+    }
+    
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
