@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     func accum(_ letters:String) -> String {
-        return ""
+        return letters.capitalized
     }
 }
 
