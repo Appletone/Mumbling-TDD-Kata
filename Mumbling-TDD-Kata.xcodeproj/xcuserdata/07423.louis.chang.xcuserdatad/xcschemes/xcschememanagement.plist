@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Mumbling-TDD-Kata.xcscheme</key>
+		<key>Mumbling-TDD-Kata.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>202ABD5B20D35A6C001222D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>202ABD6F20D35A6C001222D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
